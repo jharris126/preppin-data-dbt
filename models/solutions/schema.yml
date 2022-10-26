@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: 202242_solution
+    description: >
+      Solution SQL definition for [Preppin' Data 2022 Week 42](https://preppindata.blogspot.com/2022/10/2022-week-42-missing-training-data.html).
+      Created as view and exported as [202242_solution_output.csv]() in [/preppin-data-dbt/solution_outputs]() folder.
+    columns:
+      - name: player
+        type: VARCHAR
+      - name: session
+        type: VARCHAR
+      - name: session_date
+        type: DATE
+      - name: score
+        type: BIGINT
+        tests:
+          - not_null
+      - name: flag
+        type: VARCHAR
+
+  - name: 202239_solution
+    description: >
+      Solution SQL definition for [Preppin' Data 2022 Week 39](https://preppindata.blogspot.com/2022/09/2022-week-39-filling-in-for-hr.html).
+      Created as view and exported as [202239_solution_output.csv() in [/preppin-data-dbt/solution_outputs]() folder.
+    columns:
+      - name: record_id
+        type: BIGINT
+        tests:
+          - unique
+          - not_null
+      - name: employee
+        type: VARCHAR
+        tests:
+          - not_null
+      - name: work_level
+        type: VARCHAR
+        tests:
+          - not_null
+      - name: stage
+        type: VARCHAR
+      - name: date
+        type: DATE
