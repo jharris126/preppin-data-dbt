@@ -19,6 +19,9 @@ models:
           - not_null
       - name: flag
         type: VARCHAR
+        tests:
+          - accepted_values:
+              values: [Actual, Carried Over]
 
   - name: 202239_solution
     description: >
@@ -43,3 +46,25 @@ models:
         type: VARCHAR
       - name: date
         type: DATE
+
+  - name: 202243_solution
+    description: >
+      Solution SQL definition for [Preppin' Data 2022 Week 43](https://preppindata.blogspot.com/2022/10/2022-week-43-missing-training-data-20.html).
+      Created as view and exported as [202243_solution_output.csv](https://github.com/jharris126/preppin-data-dbt/blob/master/solution_outputs/202243_solution_output.csv) in [/preppin-data-dbt/solution_outputs](https://github.com/jharris126/preppin-data-dbt/tree/master/solution_outputs) folder.
+      All solutions sql files automatically generate a `.csv` output file when run using the [model_to_csv macro](#!/macro/macro.preppin_data.model_to_csv).
+    columns:
+      - name: player
+        type: VARCHAR
+      - name: session
+        type: VARCHAR
+      - name: session_date
+        type: DATE
+      - name: score
+        type: BIGINT
+        tests:
+          - not_null
+      - name: flag
+        type: VARCHAR
+        tests:
+          - accepted_values:
+              values: [Actual, Carried Over, Pre First Session]
