@@ -1,0 +1,26 @@
+version: 2
+
+sources:
+  - name: preppin_data_input_files
+    description: >
+      Source/Input files provided by Preppin' Data authors for weekly challenges.
+    loader: custom python
+    loaded_at_field: _loaded_at
+    schema: main
+    tables:
+      - name: src_week_202242
+        description: >
+          Source file for [Preppin' Data 2022 Week 42](https://preppindata.blogspot.com/2022/10/2022-week-42-missing-training-data.html).
+          This week has only 1 source file.
+          Link to file: [here](https://drive.google.com/file/d/1d4ItvcaPATxbFevMOfAIXXpchOh-09D_/view?usp=sharing)
+        columns:
+          - name: Player
+            type: VARCHAR
+          - name: Session
+            type: VARCHAR
+          - name: Date
+            type: DATE
+          - name: Score
+            type: BIGINT
+          - name: _loaded_at
+            type: DATETIME

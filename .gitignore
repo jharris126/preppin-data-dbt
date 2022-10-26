@@ -1,0 +1,9 @@
+
+target/
+dbt_packages/
+logs/
+solution_outputs/
+__pycache__
+.user.yml
+*.duckdb
+*.wal

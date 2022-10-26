@@ -1,0 +1,7 @@
+preppin_data:
+
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      path: "{{ env_var('DUCKDB_PATH') }}"

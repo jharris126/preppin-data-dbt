@@ -1,0 +1,30 @@
+version: 2
+
+models:
+  - name: dates
+    description: >
+          Date dimension for this dbt project.
+    columns:
+      - name: date_integer
+        type: INTEGER
+        description: >
+          Date record as an integer in format: `YYYYMMDD`.
+      - name: date_value
+        type: DATE
+        description: >
+          Value of the date record as data type: `DATE`.
+        tests:
+          - unique
+          - not_null
+      - name: day_name
+        type: VARCHAR
+        description: >
+          The English name of the day of the week for the date.
+      - name: month_start
+        type: DATE
+        description: >
+          Start date of the month the date record belongs to as data type: `DATE`.
+      - name: year_start
+        type: DATE
+        description: >
+          Start date of the year the date record belongs to as data type: `DATE`.
