@@ -4,7 +4,8 @@ models:
   - name: 202242_solution
     description: >
       Solution SQL definition for [Preppin' Data 2022 Week 42](https://preppindata.blogspot.com/2022/10/2022-week-42-missing-training-data.html).
-      Created as view and exported as [202242_solution_output.csv]() in [/preppin-data-dbt/solution_outputs]() folder.
+      Created as view and exported as [202242_solution_output.csv](https://github.com/jharris126/preppin-data-dbt/blob/master/solution_outputs/202242_solution_output.csv) in [/preppin-data-dbt/solution_outputs](https://github.com/jharris126/preppin-data-dbt/tree/master/solution_outputs) folder.
+      All solutions sql files automatically generate a `.csv` output file when run using the [model_to_csv macro](#!/macro/macro.preppin_data.model_to_csv).
     columns:
       - name: player
         type: VARCHAR
@@ -22,7 +23,8 @@ models:
   - name: 202239_solution
     description: >
       Solution SQL definition for [Preppin' Data 2022 Week 39](https://preppindata.blogspot.com/2022/09/2022-week-39-filling-in-for-hr.html).
-      Created as view and exported as [202239_solution_output.csv() in [/preppin-data-dbt/solution_outputs]() folder.
+      Created as view and exported as [202239_solution_output.csv](https://github.com/jharris126/preppin-data-dbt/blob/master/solution_outputs/202239_solution_output.csv) in [/preppin-data-dbt/solution_outputs](https://github.com/jharris126/preppin-data-dbt/tree/master/solution_outputs) folder.
+      All solutions sql files automatically generate a `.csv` output file when run using the [model_to_csv macro](#!/macro/macro.preppin_data.model_to_csv).
     columns:
       - name: record_id
         type: BIGINT
