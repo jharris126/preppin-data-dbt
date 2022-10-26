@@ -4,7 +4,7 @@ models:
   - name: 202242_solution
     description: >
       Solution SQL definition for [Preppin' Data 2022 Week 42](https://preppindata.blogspot.com/2022/10/2022-week-42-missing-training-data.html).
-      Created as view and exported as `202242_solution_output.csv` in `/preppin-data-dbt/preppin_data/solution_outputs` folder.
+      Created as view and exported as `202242_solution_output.csv` in `/preppin-data-dbt/solution_outputs` folder.
     columns:
       - name: player
         type: VARCHAR
