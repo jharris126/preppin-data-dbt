@@ -1,0 +1,20 @@
+version: 2
+
+macros:
+  - name: model_to_csv
+    description: >
+      Macro to be used in a post-hook that copies the output of the 
+      model which has just run to a `.csv` file. This macro is automatically
+      applied to all models in the `solutions` folder per `dbt_project.yml`
+      settings.
+      
+
+      **Example Compiled SQL:**
+
+      ```sql
+        copy "main"."main"."202201_solution"
+        to 'solution_outputs/202201_solution_output.csv'
+        with (header 1, delimiter ',');
+      ```
+    arguments:
+      - name: None
