@@ -41,5 +41,5 @@
 	},
     "remoteUser": "vscode",
     "workspaceFolder": "/workspaces/preppin-data-dbt/",
-    "postAttachCommand": "dbt deps"
+    "updateContentCommand": "dbt deps"
 }

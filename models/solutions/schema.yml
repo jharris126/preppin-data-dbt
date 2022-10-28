@@ -68,3 +68,18 @@ models:
         tests:
           - accepted_values:
               values: [Actual, Carried Over, Pre First Session]
+
+  - name: 202201_solution
+    description: >
+      Solution SQL definition for [Preppin' Data 2022 Week 1](https://preppindata.blogspot.com/2022/01/2022-week-1-prep-school-parental.html).
+      Created as view and exported as [202201_solution_output.csv](https://github.com/jharris126/preppin-data-dbt/blob/master/solution_outputs/202201_solution_output.csv) in [/preppin-data-dbt/solution_outputs](https://github.com/jharris126/preppin-data-dbt/tree/master/solution_outputs) folder.
+      All solutions sql files automatically generate a `.csv` output file when run using the [model_to_csv macro](#!/macro/macro.preppin_data.model_to_csv).
+    columns:
+      - name: academic_year
+        type: INTEGER
+      - name: pupils_name
+        type: VARCHAR
+      - name: parental_contact_full_name
+        type: VARCHAR
+      - name: parental_contact_email_address
+        type: VARCHAR
