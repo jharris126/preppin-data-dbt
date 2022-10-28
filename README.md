@@ -11,4 +11,4 @@ preppin-data-dbt attempts to create an easy to use [dbt](https://www.getdbt.com/
 #### Prerequisites
 - Download & Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - Download & Install [Visual Studio Code](https://code.visualstudio.com/download)
-- Install the "Dev Containers" VS Code extension from the Extension Marketplace
+- Install the "Remote - Containers" VS Code extension from the Extension Marketplace
