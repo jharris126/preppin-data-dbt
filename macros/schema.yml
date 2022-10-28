@@ -5,7 +5,8 @@ macros:
     description: >
       Macro to be used in a post-hook that copies the output of the 
       model which has just run to a `.csv` file. This macro is automatically
-      applied to all models in the `solutions` folder per `dbt_project.yml`
+      applied to all models in the `solutions` folder per
+      [dbt_project.yml](https://github.com/jharris126/preppin-data-dbt/blob/master/dbt_project.yml)
       settings.
       
 
