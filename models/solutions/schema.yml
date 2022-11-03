@@ -87,7 +87,7 @@ models:
   - name: 202244_solution
     description: >
       Solution SQL definition for [Preppin' Data 2022 Week 44](https://preppindata.blogspot.com/2022/11/2022-week-44-creating-order-ids.html).
-      Created as view and exported as [202243_solution_output.csv](https://github.com/jharris126/preppin-data-dbt/blob/master/solution_outputs/202244_solution_output.csv) in [/preppin-data-dbt/solution_outputs](https://github.com/jharris126/preppin-data-dbt/tree/master/solution_outputs) folder.
+      Created as view and exported as [202244_solution_output.csv](https://github.com/jharris126/preppin-data-dbt/blob/master/solution_outputs/202244_solution_output.csv) in [/preppin-data-dbt/solution_outputs](https://github.com/jharris126/preppin-data-dbt/tree/master/solution_outputs) folder.
       All solutions sql files automatically generate a `.csv` output file when run using the [model_to_csv macro](#!/macro/macro.preppin_data.model_to_csv).
     columns:
       - name: order_id
