@@ -12,3 +12,10 @@ preppin-data-dbt attempts to create an easy to use [dbt](https://www.getdbt.com/
 - Download & Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - Download & Install [Visual Studio Code](https://code.visualstudio.com/download)
 - Install the "Remote - Containers" VS Code extension from the Extension Marketplace
+
+## Coming Soon
+- Detailed instructions on creating your own Preppin' Data dbt repo in this README.
+- Refactor [data_ingestion python scripts](data_ingestion/) to [python dbt models](https://docs.getdbt.com/docs/building-a-dbt-project/building-models/python-models) once dbt-duckdb 1.3 has been released.
+- Improved [dbt docs Overview](https://jharris126.github.io/preppin-data-dbt/#!/overview) that emphasize
+how to use the docs to explore solutions and why dbt is a great tool for Preppin' Data Challenges.
+- More weekly solutions for Preppin, Data!
