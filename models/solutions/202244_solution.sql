@@ -19,7 +19,7 @@ src_prep as (
             when "Purchase Date" = '' then null
             else cast(strptime("Purchase Date", '%d/%m/%Y') as date)
         end order_date_3
-    from {{ source('preppin_data_input_files', 'src_week_202244') }}
+    from {{ ref('src_week_202244') }}
 )
 
 select

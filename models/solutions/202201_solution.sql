@@ -11,7 +11,7 @@ source_data as (
         "Parental Contact Name_2" as parental_contact_name_2,
         "Preferred Contact Employer" as preferred_contact_employer,
         "Parental Contact" as parental_contact
-    from {{ source('preppin_data_input_files', 'src_week_202201') }}
+    from {{ ref('src_week_202201') }}
 )
 
 select

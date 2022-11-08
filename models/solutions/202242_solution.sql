@@ -6,7 +6,7 @@ source_data as (
         "Session" as session,
         "Date" as date,
         "Score" as score
-    from {{ source('preppin_data_input_files', 'src_week_202242') }}
+    from {{ ref('src_week_202242') }}
 ),
 
 session_dates as (

@@ -10,7 +10,7 @@ source_data as (
         "Work Level" as work_level,
         "Stage" as stage,
         cast(strptime("Date", '%d/%m/%Y') as date) as date
-    from {{ source('preppin_data_input_files', 'src_week_202239') }}
+    from {{ ref('src_week_202239') }}
 ),
 
 fill_grouper as (

@@ -1,0 +1,32 @@
+version: 2
+
+models:
+  - name: src_week_202201
+    description: >
+      Loads source file for [Preppin' Data 2022 Week 1](https://preppindata.blogspot.com/2022/01/2022-week-1-prep-school-parental.html) to database table.
+      This week has only 1 source file.
+      Link to file: [here](https://drive.google.com/file/d/1p8gt3cR3ATCeGK81pnT90x0a6dbCXst1/view)
+
+  - name: src_week_202239
+    description: >
+      Loads source file for [Preppin' Data 2022 Week 39](https://preppindata.blogspot.com/2022/09/2022-week-39-filling-in-for-hr.html) to database table.
+      This week has only 1 source file.
+      Link to file: [here](https://drive.google.com/file/d/1p5Dn8DR4XDPmfEv4MQL-1C0EJZO4t97P/view)
+
+  - name: src_week_202242
+    description: >
+      Loads source file for [Preppin' Data 2022 Week 42](https://preppindata.blogspot.com/2022/10/2022-week-42-missing-training-data.html) to database table.
+      This week has only 1 source file.
+      Link to file: [here](https://drive.google.com/file/d/1d4ItvcaPATxbFevMOfAIXXpchOh-09D_/view)
+
+  - name: src_week_202243
+    description: >
+      Loads source file for [Preppin' Data 2022 Week 43](https://preppindata.blogspot.com/2022/10/2022-week-43-missing-training-data-20.html) to database table.
+      This week has only 1 source file.
+      Link to file: [here](https://drive.google.com/file/d/1lyYO70ooCldGLT8yPHoiiHn_z7S-CN7V/view)
+
+  - name: src_week_202244
+    description: >
+      Loads source file for [Preppin' Data 2022 Week 44](https://preppindata.blogspot.com/2022/11/2022-week-44-creating-order-ids.html) to database table.
+      This week has only 1 source file.
+      Link to file: [here](https://drive.google.com/file/d/1b9KuMlut8mO2LR-zpMe6Ek0XDS8Wcj6D/view)

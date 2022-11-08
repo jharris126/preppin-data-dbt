@@ -29,6 +29,8 @@ clean-targets:         # directories to be removed by `dbt clean`
 # Full documentation: https://docs.getdbt.com/docs/configuring-models
 models:
   preppin_data:
+    ingestion:
+      +materialized: table
     solutions:
       +materialized: view
       +post-hook:
