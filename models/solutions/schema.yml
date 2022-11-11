@@ -107,3 +107,30 @@ models:
         type: DATE
         tests:
           - not_null
+
+  - name: 202245_solution
+    description: >
+      Solution SQL definition for [Preppin' Data 2022 Week 45](https://preppindata.blogspot.com/2022/11/2022-week-45-strange-table-structure.html).
+      Created as view and exported as [202245_solution_output.csv](https://github.com/jharris126/preppin-data-dbt/blob/master/solution_outputs/202245_solution_output.csv) in [/preppin-data-dbt/solution_outputs](https://github.com/jharris126/preppin-data-dbt/tree/master/solution_outputs) folder.
+      All solutions sql files automatically generate a `.csv` output file when run using the [model_to_csv macro](#!/macro/macro.preppin_data.model_to_csv).
+    columns:
+      - name: store
+        type: VARCHAR
+        tests:
+          - not_null
+          - accepted_values:
+              values: [Dulwich, Wimbledon, Notting Hill, Lewisham]
+      - name: date
+        type: DATE
+        tests:
+          - not_null
+      - name: sales
+        type: BIGINT
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: '> 0'
+      - name: profit
+        type: BIGINT
+        tests:
+          - not_null

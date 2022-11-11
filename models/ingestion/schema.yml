@@ -30,3 +30,9 @@ models:
       Loads source file for [Preppin' Data 2022 Week 44](https://preppindata.blogspot.com/2022/11/2022-week-44-creating-order-ids.html) to database table.
       This week has only 1 source file.
       Link to file: [here](https://drive.google.com/file/d/1b9KuMlut8mO2LR-zpMe6Ek0XDS8Wcj6D/view)
+
+  - name: src_week_202245
+    description: >
+      Loads source file for [Preppin' Data 2022 Week 45](https://preppindata.blogspot.com/2022/11/2022-week-45-strange-table-structure.html) to database table.
+      This week has only 1 source file.
+      Link to file: [here](https://docs.google.com/spreadsheets/d/1yl90nKrQzpAgm3oYgrS44d3iX73VphSz)

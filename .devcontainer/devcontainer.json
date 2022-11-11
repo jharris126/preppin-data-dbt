@@ -36,8 +36,7 @@
                 "ms-python.python",
                 "ms-python.vscode-pylance",
                 "redhat.vscode-yaml",
-                "mechatroner.rainbow-csv",
-                "emeraldwalk.runonsave"
+                "mechatroner.rainbow-csv"
             ]
         }
     },
