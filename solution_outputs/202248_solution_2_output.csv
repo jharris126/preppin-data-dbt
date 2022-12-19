@@ -1,0 +1,145 @@
+event_id,competitor,event,event_start_date,event_description,association,points,wins,losses,ties
+71,Patrick Barrie,World Singles 71,2019-10-18,18 October 2019 · Cambridge · Cambridgeshire · England · UK · CB2 3AP,ETwA,25.000000,3,4,0
+71,Larry Kahn,World Singles 71,2019-10-18,18 October 2019 · Cambridge · Cambridgeshire · England · UK · CB2 3AP,NATwA,24.000000,4,3,0
+70,Patrick Barrie,World Singles 70,2017-04-28,"28 April 2017 · Emmanuel College, Patrick Barrie’s office · Saint Andrews Street · Cambridge · Cambridgeshire · England · UK · CB2 3AP",ETwA,25.000000,4,2,0
+70,Larry Kahn,World Singles 70,2017-04-28,"28 April 2017 · Emmanuel College, Patrick Barrie’s office · Saint Andrews Street · Cambridge · Cambridgeshire · England · UK · CB2 3AP",NATwA,17.000000,2,4,0
+69,Larry Kahn,World Singles 69,2016-04-29,"29 April 2016 · Emmanuel College, Patrick Barrie’s office · Saint Andrews Street · Cambridge · Cambridgeshire · England · UK · CB2 3AP",NATwA,28.000000,5,0,0
+69,Patrick Barrie,World Singles 69,2016-04-29,"29 April 2016 · Emmanuel College, Patrick Barrie’s office · Saint Andrews Street · Cambridge · Cambridgeshire · England · UK · CB2 3AP",ETwA,7.000000,0,5,0
+68,Larry Kahn,World Singles 68,2015-04-24,24 April 2015 · Emmanuel College · Saint Andrews Street · Cambridge · Cambridgeshire · England · UK · CB2 3AP,NATwA,25.000000,4,3,0
+68,Patrick Barrie,World Singles 68,2015-04-24,24 April 2015 · Emmanuel College · Saint Andrews Street · Cambridge · Cambridgeshire · England · UK · CB2 3AP,ETwA,24.000000,3,4,0
+67,Patrick Barrie,World Singles 67,2013-10-24,"24 October 2013 · Emmanuel College, Patrick Barrie’s office · Saint Andrews Street · Cambridge · Cambridgeshire · England · UK · CB2 3AP",ETwA,26.000000,3,4,0
+67,Larry Kahn,World Singles 67,2013-10-24,"24 October 2013 · Emmanuel College, Patrick Barrie’s office · Saint Andrews Street · Cambridge · Cambridgeshire · England · UK · CB2 3AP",NATwA,23.000000,4,3,0
+66,Larry Kahn,World Singles 66,2012-10-26,26 October 2012 · Cambridge · Cambridgeshire · England · UK,NATwA,28.500000,4,3,0
+66,Patrick Barrie,World Singles 66,2012-10-26,26 October 2012 · Cambridge · Cambridgeshire · England · UK,ETwA,20.500000,3,4,0
+65,Larry Kahn,World Singles 65,2011-10-28,28 October 2011 · Cambridge · Cambridgeshire · England · UK,NATwA,25.500000,4,2,0
+65,Matt Fayers,World Singles 65,2011-10-28,28 October 2011 · Cambridge · Cambridgeshire · England · UK,ETwA,16.500000,2,4,0
+64,Larry Kahn,World Singles 64,2010-09-02,2 September 2010 · Larry Kahn residence · 9412 Cello Court · Vienna · Virginia · USA · 22182,NATwA,26.000000,4,2,0
+64,Matt Fayers,World Singles 64,2010-09-02,2 September 2010 · Larry Kahn residence · 9412 Cello Court · Vienna · Virginia · USA · 22182,ETwA,16.000000,2,4,0
+63,Matt Fayers,World Singles 63,2010-03-20,"20 March 2010 · Emmanuel College, Patrick Barrie’s office · Saint Andrews Street · Cambridge · Cambridgeshire · England · UK · CB2 3AP",ETwA,26.000000,5,1,0
+63,Patrick Barrie,World Singles 63,2010-03-20,"20 March 2010 · Emmanuel College, Patrick Barrie’s office · Saint Andrews Street · Cambridge · Cambridgeshire · England · UK · CB2 3AP",ETwA,16.000000,1,5,0
+62,Matt Fayers,World Singles 62,2009-10-09,9 October 2009 · Emmanuel College · Saint Andrews Street · Cambridge · Cambridgeshire · England · UK · CB2 3AP,ETwA,27.500000,5,1,0
+62,Matthew Rose,World Singles 62,2009-10-09,9 October 2009 · Emmanuel College · Saint Andrews Street · Cambridge · Cambridgeshire · England · UK · CB2 3AP,ETwA,14.500000,1,5,0
+61,Matthew Rose,World Singles 61,2008-09-07,7 September 2008 · London · Greater London · England · UK,ETwA,28.000000,5,2,0
+61,Andy Purvis,World Singles 61,2008-09-07,7 September 2008 · London · Greater London · England · UK,ETwA,21.000000,2,5,0
+60,Andy Purvis,World Singles 60,2006-10-20,"20 October 2006 · Selwyn College, Stew Sage’s room, N1 on Cripps Court · Cranmer Road · Cambridge · Cambridgeshire · England · UK · CB3 9DQ",ETwA,29.000000,5,2,0
+60,Larry Kahn,World Singles 60,2006-10-20,"20 October 2006 · Selwyn College, Stew Sage’s room, N1 on Cripps Court · Cranmer Road · Cambridge · Cambridgeshire · England · UK · CB3 9DQ",NATwA,20.000000,2,5,0
+59,Andy Purvis,World Singles 59,2004-10-22,"22 October 2004 · Queens’ College, Erasmus Room · Silver Street · Cambridge · Cambridgeshire · England · UK · CB3 9ET",ETwA,30.333330,4,2,0
+59,Larry Kahn,World Singles 59,2004-10-22,"22 October 2004 · Queens’ College, Erasmus Room · Silver Street · Cambridge · Cambridgeshire · England · UK · CB3 9ET",NATwA,11.500000,2,4,0
+58,Larry Kahn,World Singles 58,2003-04-25,"25 April 2003 · Queens’ College, Old Kitchens · Silver Street · Cambridge · Cambridgeshire · England · UK · CB3 9ET",NATwA,25.500000,5,1,0
+58,Matthew Rose,World Singles 58,2003-04-25,"25 April 2003 · Queens’ College, Old Kitchens · Silver Street · Cambridge · Cambridgeshire · England · UK · CB3 9ET",ETwA,16.500000,1,5,0
+57,Matthew Rose,World Singles 57,2003-04-06,"6 April 2003 · Queens’ College, Erasmus Room · Silver Street · Cambridge · Cambridgeshire · England · UK · CB3 9ET",ETwA,26.000000,4,1,0
+57,Patrick Barrie,World Singles 57,2003-04-06,"6 April 2003 · Queens’ College, Erasmus Room · Silver Street · Cambridge · Cambridgeshire · England · UK · CB3 9ET",ETwA,9.000000,1,4,0
+56,Patrick Barrie,World Singles 56,2002-10-25,25 October 2002 · The Castle Inn · 38 Castle Street · Cambridge · Cambridgeshire · England · UK · CB3 0AJ,ETwA,28.500000,5,1,0
+56,Dave Lockwood,World Singles 56,2002-10-25,25 October 2002 · The Castle Inn · 38 Castle Street · Cambridge · Cambridgeshire · England · UK · CB3 0AJ,NATwA,13.500000,1,5,0
+55,Patrick Barrie,World Singles 55,2002-10-06,6 October 2002 · Cambridge · Cambridgeshire · England · UK,ETwA,25.000000,3,3,0
+55,Ed Wynn,World Singles 55,2002-10-06,6 October 2002 · Cambridge · Cambridgeshire · England · UK,ETwA,17.000000,3,3,0
+54,Patrick Barrie,World Singles 54,2001-10-26,26 October 2001 · The Castle Inn · 38 Castle Street · Cambridge · Cambridgeshire · England · UK · CB3 0AJ,ETwA,26.000000,4,3,0
+54,Dave Lockwood,World Singles 54,2001-10-26,26 October 2001 · The Castle Inn · 38 Castle Street · Cambridge · Cambridgeshire · England · UK · CB3 0AJ,NATwA,23.000000,3,4,0
+53,Dave Lockwood,World Singles 53,2001-10-21,21 October 2001 · Brookville · Maryland · USA,NATwA,25.500000,4,3,0
+53,Larry Kahn,World Singles 53,2001-10-21,21 October 2001 · Brookville · Maryland · USA,NATwA,23.500000,3,4,0
+52,Larry Kahn,World Singles 52,2000-10-20,20 October 2000 · The Castle Inn · 38 Castle Street · Cambridge · Cambridgeshire · England · UK · CB3 0AJ,NATwA,26.000000,4,2,0
+52,Patrick Barrie,World Singles 52,2000-10-20,20 October 2000 · The Castle Inn · 38 Castle Street · Cambridge · Cambridgeshire · England · UK · CB3 0AJ,ETwA,16.000000,2,4,0
+51,Larry Kahn,World Singles 51,1999-10-22,22 October 1999 · The Castle Inn · 38 Castle Street · Cambridge · Cambridgeshire · England · UK · CB3 0AJ,NATwA,27.500000,4,2,0
+51,Patrick Barrie,World Singles 51,1999-10-22,22 October 1999 · The Castle Inn · 38 Castle Street · Cambridge · Cambridgeshire · England · UK · CB3 0AJ,ETwA,14.500000,2,4,0
+50,Patrick Barrie,World Singles 50,1999-10-08,8 October 1999 · Oxford · Oxfordshire · England · UK,ETwA,26.500000,4,2,0
+50,Andy Purvis,World Singles 50,1999-10-08,8 October 1999 · Oxford · Oxfordshire · England · UK,ETwA,15.500000,2,4,0
+49,Andy Purvis,World Singles 49,1998-11-20,"20 November 1998 · Silwood Park, University of London · Buckhurst Road · Ascot · Berkshire · England · UK · SL5 7QN",ETwA,30.000000,4,3,0
+49,Larry Kahn,World Singles 49,1998-11-20,"20 November 1998 · Silwood Park, University of London · Buckhurst Road · Ascot · Berkshire · England · UK · SL5 7QN",NATwA,19.000000,3,4,0
+48,Andy Purvis,World Singles 48,1998-04-24,24 April 1998 · Cambridge · Cambridgeshire · England · UK,ETwA,26.500000,4,2,0
+48,Larry Kahn,World Singles 48,1998-04-24,24 April 1998 · Cambridge · Cambridgeshire · England · UK,NATwA,15.500000,2,4,0
+47,Larry Kahn,World Singles 47,1997-11-20,20 November 1997 · The Castle Inn · 38 Castle Street · Cambridge · Cambridgeshire · England · UK · CB3 0AJ,NATwA,25.000000,4,1,0
+47,Patrick Barrie,World Singles 47,1997-11-20,20 November 1997 · The Castle Inn · 38 Castle Street · Cambridge · Cambridgeshire · England · UK · CB3 0AJ,ETwA,10.000000,1,4,0
+46,Larry Kahn,World Singles 46,1997-10-12,12 October 1997 · Rick Tucker residence · 4651 Kinsey Lane · Alexandria · Virginia · USA · 22311,NATwA,25.500000,4,2,0
+46,Dave Lockwood,World Singles 46,1997-10-12,12 October 1997 · Rick Tucker residence · 4651 Kinsey Lane · Alexandria · Virginia · USA · 22311,NATwA,16.500000,2,4,0
+45,Dave Lockwood,World Singles 45,1996-10-31,"31 October 1996 · Cambridge · Cambridgeshire · England · UK
+Order of games unknown.",NATwA,26.000000,4,2,0
+45,Geoff Myers,World Singles 45,1996-10-31,"31 October 1996 · Cambridge · Cambridgeshire · England · UK
+Order of games unknown.",ETwA,16.000000,2,4,0
+44,Geoff Myers,World Singles 44,1995-11-17,"17 November 1995 · Queens’ College, Armitage Room · Silver Street · Cambridge · Cambridgeshire · England · UK · CB3 9ET",ETwA,28.000000,5,0,0
+44,Larry Kahn,World Singles 44,1995-11-17,"17 November 1995 · Queens’ College, Armitage Room · Silver Street · Cambridge · Cambridgeshire · England · UK · CB3 9ET",NATwA,7.000000,0,5,0
+43,Larry Kahn,World Singles 43,1995-04-30,30 April 1995 · Cambridge · Cambridgeshire · England · UK,NATwA,26.000000,5,1,0
+43,Patrick Barrie,World Singles 43,1995-04-30,30 April 1995 · Cambridge · Cambridgeshire · England · UK,ETwA,16.000000,1,5,0
+42,Larry Kahn,World Singles 42,1995-03-31,31 March 1995 · London · Greater London · England · UK,NATwA,26.500000,3,4,0
+42,Patrick Barrie,World Singles 42,1995-03-31,31 March 1995 · London · Greater London · England · UK,ETwA,22.500000,4,3,0
+41,Patrick Barrie,World Singles 41,1994-10-31,31 October 1994 · Cambridge · Cambridgeshire · England · UK,ETwA,26.500000,3,4,0
+41,Dave Lockwood,World Singles 41,1994-10-31,31 October 1994 · Cambridge · Cambridgeshire · England · UK,NATwA,22.500000,4,3,0
+40,Patrick Barrie,World Singles 40,1994-06-13,"13 June 1994 · Queens’ College, Angevin Room · Silver Street · Cambridge · Cambridgeshire · England · UK · CB3 9ET",ETwA,25.000000,4,2,0
+40,Geoff Myers,World Singles 40,1994-06-13,"13 June 1994 · Queens’ College, Angevin Room · Silver Street · Cambridge · Cambridgeshire · England · UK · CB3 9ET",ETwA,17.000000,2,4,0
+39,Geoff Myers,World Singles 39,1993-10-29,"29 October 1993 · St. Cross College, conference room · Oxford · Oxfordshire · England · UK · OX1 3LZ",ETwA,26.000000,4,2,0
+39,Andy Purvis,World Singles 39,1993-10-29,"29 October 1993 · St. Cross College, conference room · Oxford · Oxfordshire · England · UK · OX1 3LZ",ETwA,16.000000,2,4,0
+38,Geoff Myers,World Singles 38,1993-05-09,9 May 1993 · University College · Oxford · Oxfordshire · England · UK · OX1 4BH,ETwA,29.000000,5,0,0
+38,Andy Purvis,World Singles 38,1993-05-09,9 May 1993 · University College · Oxford · Oxfordshire · England · UK · OX1 4BH,ETwA,6.000000,0,5,0
+37,Geoff Myers,World Singles 37,1992-10-31,31 October 1992 · Cambridge · Cambridgeshire · England · UK,ETwA,25.500000,5,1,0
+37,Dave Lockwood,World Singles 37,1992-10-31,31 October 1992 · Cambridge · Cambridgeshire · England · UK,NATwA,16.500000,1,5,0
+36,Geoff Myers,World Singles 36,1992-09-27,27 September 1992 · Sue Shrut & Saul Agranoff residence · 1 Carsha Drive · Natick · Massachusetts · USA · 01760,ETwA,25.000000,3,4,0
+36,Larry Kahn,World Singles 36,1992-09-27,27 September 1992 · Sue Shrut & Saul Agranoff residence · 1 Carsha Drive · Natick · Massachusetts · USA · 01760,NATwA,24.000000,4,3,0
+35,Larry Kahn,World Singles 35,1991-03-16,16 March 1991 · Hughes Methodist Church · 10700 Georgia Avenue · Wheaton · Maryland · USA · 20902,NATwA,29.000000,4,2,0
+35,Dave Lockwood,World Singles 35,1991-03-16,16 March 1991 · Hughes Methodist Church · 10700 Georgia Avenue · Wheaton · Maryland · USA · 20902,NATwA,20.000000,2,4,0
+34,Larry Kahn,World Singles 34,1990-11-26,26 November 1990 · Cambridge · Cambridgeshire · England · UK,NATwA,30.500000,4,3,0
+34,Andy Purvis,World Singles 34,1990-11-26,26 November 1990 · Cambridge · Cambridgeshire · England · UK,ETwA,18.500000,3,4,0
+33,Andy Purvis,World Singles 33,1990-11-26,26 November 1990 · Cambridge · Cambridgeshire · England · UK,ETwA,27.500000,5,1,0
+33,Nick Inglis,World Singles 33,1990-11-26,26 November 1990 · Cambridge · Cambridgeshire · England · UK,ETwA,14.500000,1,5,0
+32,Andy Purvis,World Singles 32,1990-11-23,23 November 1990 · Oxford · Oxfordshire · England · UK,ETwA,27.500000,5,0,0
+32,Larry Kahn,World Singles 32,1990-11-23,23 November 1990 · Oxford · Oxfordshire · England · UK,NATwA,7.500000,0,5,0
+31,Larry Kahn,World Singles 31,1990-04-17,17 April 1990 · London · Greater London · England · UK,NATwA,30.500000,5,2,0
+31,Richard Moore,World Singles 31,1990-04-17,17 April 1990 · London · Greater London · England · UK,ETwA,18.500000,2,5,0
+30,Larry Kahn,World Singles 30,1989-04-28,28 April 1989 · Cambridge · England · UK,NATwA,25.000000,4,1,0
+30,Charles Relle,World Singles 30,1989-04-28,28 April 1989 · Cambridge · England · UK,ETwA,10.000000,1,4,0
+29,Larry Kahn,World Singles 29,1989-01-21,21 January 1989 · Silver Spring · Maryland · USA,NATwA,25.000000,3,4,0
+29,Dave Lockwood,World Singles 29,1989-01-21,21 January 1989 · Silver Spring · Maryland · USA,NATwA,24.000000,4,3,0
+28,Larry Kahn,World Singles 28,1988-09-21,21 September 1988 · Original Sports Bar · 34 Market Place · Baltimore · Maryland · USA · 21202,NATwA,26.000000,4,2,0
+28,Jonathan Mapley,World Singles 28,1988-09-21,21 September 1988 · Original Sports Bar · 34 Market Place · Baltimore · Maryland · USA · 21202,ETwA,16.000000,2,4,0
+27,Jonathan Mapley,World Singles 27,1988-02-17,17 February 1988 · London · Greater London · England · UK,ETwA,26.500000,4,2,0
+27,Charles Relle,World Singles 27,1988-02-17,17 February 1988 · London · Greater London · England · UK,ETwA,15.500000,2,4,0
+26,Jonathan Mapley,World Singles 26,1987-11-21,21 November 1987 · Cambridge · Cambridgeshire · England · UK,ETwA,25.000000,4,1,0
+26,Larry Kahn,World Singles 26,1987-11-21,21 November 1987 · Cambridge · Cambridgeshire · England · UK,NATwA,10.000000,1,4,0
+25,Jonathan Mapley,World Singles 25,1987-04-24,24 April 1987 · London · Greater London · England · UK,ETwA,29.000000,4,3,0
+25,Alan Dean,World Singles 25,1987-04-24,24 April 1987 · London · Greater London · England · UK,ETwA,20.000000,3,4,0
+24,Jonathan Mapley,World Singles 24,1986-11-26,26 November 1986 · Cambridge · Cambridgeshire · England · UK,ETwA,25.500000,4,2,0
+24,Larry Kahn,World Singles 24,1986-11-26,26 November 1986 · Cambridge · Cambridgeshire · England · UK,NATwA,16.500000,2,4,0
+23,Larry Kahn,World Singles 23,1985-12-01,1 December 1985 · Oxford · Oxfordshire · England · UK,NATwA,25.000000,4,0,0
+23,Alan Dean,World Singles 23,1985-12-01,1 December 1985 · Oxford · Oxfordshire · England · UK,ETwA,3.000000,0,4,0
+22,Alan Dean,World Singles 22,1985-11-22,22 November 1985 · Cambridge · Cambridgeshire · England · UK,ETwA,30.500000,4,3,0
+22,Arye Gittelman,World Singles 22,1985-11-22,22 November 1985 · Cambridge · Cambridgeshire · England · UK,NATwA,18.500000,3,4,0
+21,Arye Gittelman,World Singles 21,1985-10-19,19 October 1985 · Cambridge · Massachusetts · USA,NATwA,26.500000,4,3,0
+21,Larry Kahn,World Singles 21,1985-10-19,19 October 1985 · Cambridge · Massachusetts · USA,NATwA,22.500000,3,4,0
+20,Arye Gittelman,World Singles 20,1985-02-17,"17 February 1985 · MIT Student Center, room 400 · 84 Massachusetts Avenue · Cambridge · Massachusetts · USA · 02139",NATwA,25.000000,5,1,0
+20,Larry Kahn,World Singles 20,1985-02-17,"17 February 1985 · MIT Student Center, room 400 · 84 Massachusetts Avenue · Cambridge · Massachusetts · USA · 02139",NATwA,17.000000,1,5,0
+19,Larry Kahn,World Singles 19,1984-11-19,19 November 1984 · Cambridge · Massachusetts · USA,NATwA,25.000000,4,2,0
+19,Jonathan Mapley,World Singles 19,1984-11-19,19 November 1984 · Cambridge · Massachusetts · USA,ETwA,17.000000,2,4,0
+18,Larry Kahn,World Singles 18,1984-02-17,17 February 1984 · Cambridge · Massachusetts · USA,NATwA,29.500000,4,3,0
+18,Dave Lockwood,World Singles 18,1984-02-17,17 February 1984 · Cambridge · Massachusetts · USA,NATwA,19.500000,3,4,0
+17,Larry Kahn,World Singles 17,1983-05-27,"27 May 1983 · MIT Student Center, room 400 · 84 Massachusetts Avenue · Cambridge · Massachusetts · USA · 02139",NATwA,29.500000,4,1,1
+17,Dave Lockwood,World Singles 17,1983-05-27,"27 May 1983 · MIT Student Center, room 400 · 84 Massachusetts Avenue · Cambridge · Massachusetts · USA · 02139",NATwA,12.500000,1,4,1
+16,Larry Kahn,World Singles 16,1983-05-26,"26 May 1983 · MIT Student Center, room 400 · 84 Massachusetts Avenue · Cambridge · Massachusetts · USA · 02139",NATwA,25.000000,4,2,0
+16,Jonathan Mapley,World Singles 16,1983-05-26,"26 May 1983 · MIT Student Center, room 400 · 84 Massachusetts Avenue · Cambridge · Massachusetts · USA · 02139",ETwA,17.000000,2,4,0
+15,Larry Kahn,World Singles 15,1983-02-18,18 February 1983 · Cambridge · Massachusetts · USA,NATwA,29.500000,4,3,0
+15,Dave Lockwood,World Singles 15,1983-02-18,18 February 1983 · Cambridge · Massachusetts · USA,NATwA,19.500000,3,4,0
+14,Dave Lockwood,World Singles 14,1982-10-16,16 October 1982 · London · Greater London · England · UK,NATwA,25.000000,4,1,0
+14,Charles Relle,World Singles 14,1982-10-16,16 October 1982 · London · Greater London · England · UK,ETwA,10.000000,1,4,0
+13,Dave Lockwood,World Singles 13,1981-11-07,7 November 1981 · Haverford · Pennsylvania · USA,NATwA,27.500000,4,3,0
+13,Larry Kahn,World Singles 13,1981-11-07,7 November 1981 · Haverford · Pennsylvania · USA,NATwA,21.500000,3,4,0
+12,Dave Lockwood,World Singles 12,1981-07-10,10 July 1981 · London · Greater London · England · UK,NATwA,25.500000,4,2,0
+12,Jonathan Mapley,World Singles 12,1981-07-10,10 July 1981 · London · Greater London · England · UK,ETwA,16.500000,2,4,0
+11,Dave Lockwood,World Singles 11,1981-03-13,13 March 1981 · London · Greater London · England · UK,NATwA,30.500000,5,1,0
+11,Pam Knowles,World Singles 11,1981-03-13,13 March 1981 · London · Greater London · England · UK,ETwA,11.500000,1,5,0
+10,Dave Lockwood,World Singles 10,1980-08-02,2 August 1980 · MIT Club of New York · New York · New York · USA,NATwA,30.000000,5,2,0
+10,Larry Kahn,World Singles 10,1980-08-02,2 August 1980 · MIT Club of New York · New York · New York · USA,NATwA,19.000000,2,5,0
+9,Dave Lockwood,World Singles 9,1980-04-12,12 April 1980 · Ithaca · New York · USA,NATwA,26.500000,3,3,0
+9,Severin Drix,World Singles 9,1980-04-12,12 April 1980 · Ithaca · New York · USA,NATwA,15.500000,3,3,0
+8,Dave Lockwood,World Singles 8,1980-02-02,2 February 1980 · Cambridge · Cambridgeshire · England · UK,NATwA,24.666660,4,2,0
+8,Jonathan Mapley,World Singles 8,1980-02-02,2 February 1980 · Cambridge · Cambridgeshire · England · UK,ETwA,17.333330,2,4,0
+7,Dave Lockwood,World Singles 7,1979-07-14,14 July 1979 · Southampton · Hampshire · England · UK,NATwA,26.000000,4,1,0
+7,Alan Dean,World Singles 7,1979-07-14,14 July 1979 · Southampton · Hampshire · England · UK,ETwA,9.000000,1,4,0
+6,Dave Lockwood,World Singles 6,1978-08-19,19 August 1978 · Ithaca · New York · USA,NATwA,25.500000,3,4,0
+6,Severin Drix,World Singles 6,1978-08-19,19 August 1978 · Ithaca · New York · USA,NATwA,23.500000,4,3,0
+5,Severin Drix,World Singles 5,1977-07-31,31 July 1977 · Ithaca · New York · USA,NATwA,26.500000,4,3,0
+5,Dave Lockwood,World Singles 5,1977-07-31,31 July 1977 · Ithaca · New York · USA,NATwA,22.500000,3,4,0
+4,Severin Drix,World Singles 4,1977-04-15,15 April 1977 and 16 April 1977 · Ithaca · New York · USA,NATwA,28.000000,4,2,0
+4,Sunshine,World Singles 4,1977-04-15,15 April 1977 and 16 April 1977 · Ithaca · New York · USA,NATwA,14.000000,2,4,0
+3,Severin Drix,World Singles 3,1976-06-30,30 June 1976 · London · Greater London · England · UK,NATwA,27.000000,4,2,0
+3,Keith Seaman,World Singles 3,1976-06-30,30 June 1976 · London · Greater London · England · UK,ETwA,15.000000,2,4,0
+2,Severin Drix,World Singles 2,1974-11-29,29 November 1974 and 30 November 1974 · Cambridge · Massachusetts · USA,NATwA,25.000000,4,2,0
+2,Bill Renke,World Singles 2,1974-11-29,29 November 1974 and 30 November 1974 · Cambridge · Massachusetts · USA,NATwA,17.000000,2,4,0
+1,Bill Renke,World Singles 1,1973-06-23,23 June 1973 and 24 June 1973 · Southampton · Hampshire · England · UK,NATwA,29.000000,5,0,0
+1,Alan Dean,World Singles 1,1973-06-23,23 June 1973 and 24 June 1973 · Southampton · Hampshire · England · UK,ETwA,6.000000,0,5,0

@@ -163,3 +163,57 @@ models:
         type: HUGEINT
       - name: win_percent
         type: DECIMAL(8,2)
+
+  - name: 202248_solution_1
+    description: >
+      Solution SQL definition #1 for [Preppin' Data 2022 Week 48](https://preppindata.blogspot.com/2022/11/2022-week-48-tiddlywinks-tidy.html).
+      Created as view and exported as [202248_solution_1_output.csv](https://github.com/jharris126/preppin-data-dbt/blob/master/solution_outputs/202248_solution_1_output.csv) in [/preppin-data-dbt/solution_outputs](https://github.com/jharris126/preppin-data-dbt/tree/master/solution_outputs) folder.
+      All solutions sql files automatically generate a `.csv` output file when run using the [model_to_csv macro](#!/macro/macro.preppin_data.model_to_csv).
+    columns:
+      - name: event_id
+        type: INT
+        tests:
+          - not_null
+      - name: competitor
+        type: VARCHAR
+        tests:
+          - not_null
+      - name: game_order
+        type: VARCHAR
+      - name: score
+        type: NUMERIC(8,6)
+      - name: potout
+        type: BOOLEAN
+      - name: note
+        type: VARCHAR
+
+  - name: 202248_solution_2
+    description: >
+      Solution SQL definition #2 for [Preppin' Data 2022 Week 48](https://preppindata.blogspot.com/2022/11/2022-week-48-tiddlywinks-tidy.html).
+      Created as view and exported as [202248_solution_2_output.csv](https://github.com/jharris126/preppin-data-dbt/blob/master/solution_outputs/202248_solution_2_output.csv) in [/preppin-data-dbt/solution_outputs](https://github.com/jharris126/preppin-data-dbt/tree/master/solution_outputs) folder.
+      All solutions sql files automatically generate a `.csv` output file when run using the [model_to_csv macro](#!/macro/macro.preppin_data.model_to_csv).
+    columns:
+      - name: event_id
+        type: INT
+        tests:
+          - not_null
+      - name: competitor
+        type: VARCHAR
+        tests:
+          - not_null
+      - name: event
+        type: VARCHAR
+      - name: event_start_date
+        type: DATE
+      - name: event_description
+        type: VARCHAR
+      - name: association
+        type: VARCHAR
+      - name: points
+        type: NUMERIC(8,6)
+      - name: wins
+        type: INT
+      - name: losses
+        type: INT
+      - name: ties
+        type: INT
