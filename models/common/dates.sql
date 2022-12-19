@@ -4,7 +4,7 @@ with
         {{
             dbt_utils.date_spine(
                 datepart="day",
-                start_date="cast('1950-01-01' as date)",
+                start_date="cast('1900-01-01' as date)",
                 end_date="cast('2049-12-31' as date)",
             )
         }}
