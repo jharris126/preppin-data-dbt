@@ -217,3 +217,45 @@ models:
         type: INT
       - name: ties
         type: INT
+
+  - name: 202249_solution_1
+    description: >
+      Solution SQL definition #1 for [Preppin' Data 2022 Week 49](https://preppindata.blogspot.com/2022/12/2022-week-49-cleaning-status-history-hr.html).
+      Created as view and exported as [202249_solution_1_output.csv](https://github.com/jharris126/preppin-data-dbt/blob/master/solution_outputs/202249_solution_1_output.csv) in [/preppin-data-dbt/solution_outputs](https://github.com/jharris126/preppin-data-dbt/tree/master/solution_outputs) folder.
+      All solutions sql files automatically generate a `.csv` output file when run using the [model_to_csv macro](#!/macro/macro.preppin_data.model_to_csv).
+    columns:
+      - name: candidate_id
+        type: INT
+        tests:
+          - not_null
+      - name: position_id
+        type: INT
+        tests:
+          - not_null
+      - name: status
+        type: VARCHAR
+        tests:
+          - not_null
+      - name: ts
+        type: DATETIME
+      - name: filename
+        type: VARCHAR
+
+  - name: 202249_solution_2
+    description: >
+      Solution SQL definition #2 for [Preppin' Data 2022 Week 49](https://preppindata.blogspot.com/2022/12/2022-week-49-cleaning-status-history-hr.html).
+      Created as view and exported as [202249_solution_2_output.csv](https://github.com/jharris126/preppin-data-dbt/blob/master/solution_outputs/202249_solution_2_output.csv) in [/preppin-data-dbt/solution_outputs](https://github.com/jharris126/preppin-data-dbt/tree/master/solution_outputs) folder.
+      All solutions sql files automatically generate a `.csv` output file when run using the [model_to_csv macro](#!/macro/macro.preppin_data.model_to_csv).
+    columns:
+      - name: candidate_id
+        type: INT
+        tests:
+          - not_null
+      - name: position_id
+        type: INT
+        tests:
+          - not_null
+      - name: current_status
+        type: VARCHAR
+        tests:
+          - not_null

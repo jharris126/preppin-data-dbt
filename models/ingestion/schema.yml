@@ -60,3 +60,9 @@ models:
       Loads source file for [Preppin' Data 2022 Week 48](https://preppindata.blogspot.com/2022/11/2022-week-48-tiddlywinks-tidy.html) to database table.
       This week has only 1 source file.
       Link to file: [here](https://docs.google.com/spreadsheets/d/1uZ69PJ-UZ7fMJaSjpjTJCixU4OY38JMt)
+
+  - name: src_week_202249
+    description: >
+      Loads source file for [Preppin' Data 2022 Week 49](https://preppindata.blogspot.com/2022/12/2022-week-49-cleaning-status-history-hr.html) to database table.
+      This week has only 1 source file.
+      Link to file: [here](https://drive.google.com/file/d/1g6-c0yy9SzmfLOT6jywt6YUb2LrylJwb)
