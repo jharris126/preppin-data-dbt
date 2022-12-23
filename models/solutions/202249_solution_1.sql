@@ -26,6 +26,6 @@ select
     candidate_id,
     position_id,
     status,
-    ts,
+    cast(ts as datetime) as ts,
     filename
 from file_time_rank
