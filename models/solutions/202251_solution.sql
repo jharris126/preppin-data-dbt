@@ -4,10 +4,6 @@ data_to_list as (
     select
         string_split("Work Experience", ', ') as data_list
     from {{ ref("src_week_202251") }}
-    where "Work Experience" not in (
-        'Application Date: 2021 (47)',
-        'Application Date: 2022 (8)'
-    )
 ),
 
 structured_data as (
@@ -17,6 +13,7 @@ structured_data as (
         replace(data_list[3], 'Supervised: ', '') as supervised,
         string_split(replace(data_list[4], 'Industry Experience: ', ''), ' ') as industry_experience
     from data_to_list
+    where data_list[2] is not null
 ),
 
 prep_and_cast as (
