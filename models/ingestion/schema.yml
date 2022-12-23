@@ -66,3 +66,9 @@ models:
       Loads source file for [Preppin' Data 2022 Week 49](https://preppindata.blogspot.com/2022/12/2022-week-49-cleaning-status-history-hr.html) to database table.
       This week has only 1 source file.
       Link to file: [here](https://drive.google.com/file/d/1g6-c0yy9SzmfLOT6jywt6YUb2LrylJwb)
+
+  - name: src_week_202251
+    description: >
+      Loads source file for [Preppin' Data 2022 Week 51](https://preppindata.blogspot.com/2022/12/2022-week-51-parsing-unfortunate-report.html) to database table.
+      This week has only 1 source file.
+      Link to file: [here](https://docs.google.com/spreadsheets/d/1dXtK_0xQWj5gG-sj21JqmE2jYLtk6yfU)

@@ -291,3 +291,35 @@ models:
               expression: '>= 0'
           - dbt_utils.expression_is_true:
               expression: '<= 100'
+
+  - name: 202251_solution
+    description: >
+      Solution SQL definition for [Preppin' Data 2022 Week 51](https://preppindata.blogspot.com/2022/12/2022-week-51-parsing-unfortunate-report.html).
+      Created as view and exported as [202251_solution_output.csv](https://github.com/jharris126/preppin-data-dbt/blob/master/solution_outputs/202251_solution_output.csv) in [/preppin-data-dbt/solution_outputs](https://github.com/jharris126/preppin-data-dbt/tree/master/solution_outputs) folder.
+      All solutions sql files automatically generate a `.csv` output file when run using the [model_to_csv macro](#!/macro/macro.preppin_data.model_to_csv).
+    columns:
+      - name: application_month
+        type: DATE
+        tests:
+          - not_null
+          - unique
+      - name: total_candidates
+        type: INT
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: '>= 0'
+      - name: candidates_with_preferred_qualifications
+        type: INT
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: '>= 0'
+      - name: percent_preferred_of_total_candidates
+        type: NUMERIC(8,1)
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: '>= 0'
+          - dbt_utils.expression_is_true:
+              expression: '<= 100'
