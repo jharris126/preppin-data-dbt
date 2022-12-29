@@ -323,3 +323,56 @@ models:
               expression: '>= 0'
           - dbt_utils.expression_is_true:
               expression: '<= 100'
+
+  - name: 202252_solution
+    description: >
+      Solution SQL definition for [Preppin' Data 2022 Week 52](https://preppindata.blogspot.com/2022/12/2022-week-52-find-sub-departments-from.html).
+      Created as view and exported as [202252_solution_output.csv](https://github.com/jharris126/preppin-data-dbt/blob/master/solution_outputs/202252_solution_output.csv) in [/preppin-data-dbt/solution_outputs](https://github.com/jharris126/preppin-data-dbt/tree/master/solution_outputs) folder.
+      All solutions sql files automatically generate a `.csv` output file when run using the [model_to_csv macro](#!/macro/macro.preppin_data.model_to_csv).
+    columns:
+      - name: position_id
+        type: VARCHAR
+        tests:
+          - not_null
+          - unique
+      - name: employee_id
+        type: VARCHAR
+        tests:
+          - not_null
+          - unique
+      - name: title
+        type: VARCHAR
+        tests:
+          - not_null
+      - name: department
+        type: VARCHAR
+        tests:
+          - not_null
+      - name: supervisor_id
+        type: VARCHAR
+      - name: team_id
+        type: VARCHAR
+      - name: direct_reports
+        type: INT
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: '>= 0'
+      - name: team_name
+        type: VARCHAR
+      - name: team_hierarchy
+        type: VARCHAR
+      - name: employee_id_hierarchy
+        type: VARCHAR
+      - name: dependent_team_ids
+        type: VARCHAR
+      - name: hierarchy_level
+        type: INT
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: '>= 1'
+      - name: subdept_team_id
+        type: VARCHAR
+      - name: subdept_name
+        type: VARCHAR

@@ -72,3 +72,15 @@ models:
       Loads source file for [Preppin' Data 2022 Week 51](https://preppindata.blogspot.com/2022/12/2022-week-51-parsing-unfortunate-report.html) to database table.
       This week has only 1 source file.
       Link to file: [here](https://docs.google.com/spreadsheets/d/1dXtK_0xQWj5gG-sj21JqmE2jYLtk6yfU)
+
+  - name: src_week_202252_employees
+    description: >
+      Loads the Employees source file for [Preppin' Data 2022 Week 52](https://preppindata.blogspot.com/2022/12/2022-week-52-find-sub-departments-from.html) to database table.
+      This week has 2 source files.
+      Link to file: [here](https://docs.google.com/spreadsheets/d/1RsP8ANXAMN66XObcBkuwDuF1-b9CL3Xg/edit#gid=823085906)
+
+  - name: src_week_202252_teams
+    description: >
+      Loads the Employees source file for [Preppin' Data 2022 Week 52](https://preppindata.blogspot.com/2022/12/2022-week-52-find-sub-departments-from.html) to database table.
+      This week has 2 source files.
+      Link to file: [here](https://docs.google.com/spreadsheets/d/1RsP8ANXAMN66XObcBkuwDuF1-b9CL3Xg/edit#gid=2076379781)
