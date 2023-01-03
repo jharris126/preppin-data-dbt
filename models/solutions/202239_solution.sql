@@ -2,9 +2,9 @@ with
 
     source_data as (
         select
-            "ï»¿Record ID" as record_id,
+            "Record ID" as record_id,
             case trim("Employee") when '' then null else "Employee" end as employee,
-            "Work Level" as work_level,
+            cast("Work Level" as int) as work_level,
             "Stage" as stage,
             cast(strptime("Date", '%d/%m/%Y') as date) as date
         from {{ ref("src_week_202239") }}
