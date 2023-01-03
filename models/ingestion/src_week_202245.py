@@ -1,7 +1,7 @@
-def model(dbt, session):
-    import pandas as pd
-    import itertools
+import pandas as pd
+import itertools
 
+def model(dbt, session):
     source_data_url = "https://docs.google.com/spreadsheets/d/1yl90nKrQzpAgm3oYgrS44d3iX73VphSz/export?format=csv"
     data = pd.read_csv(source_data_url, skiprows=2, header=[0, 1]).values
     cols_maker = itertools.product(
