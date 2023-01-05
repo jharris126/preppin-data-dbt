@@ -81,6 +81,12 @@ models:
 
   - name: src_week_202252_teams
     description: >
-      Loads the Employees source file for [Preppin' Data 2022 Week 52](https://preppindata.blogspot.com/2022/12/2022-week-52-find-sub-departments-from.html) to database table.
+      Loads the Teams source file for [Preppin' Data 2022 Week 52](https://preppindata.blogspot.com/2022/12/2022-week-52-find-sub-departments-from.html) to database table.
       This week has 2 source files.
       Link to file: [here](https://docs.google.com/spreadsheets/d/1RsP8ANXAMN66XObcBkuwDuF1-b9CL3Xg/edit#gid=2076379781)
+  
+  - name: src_week_202301
+    description: >
+      Loads source file for [Preppin' Data 2023 Week 1](https://preppindata.blogspot.com/2023/01/2023-week-1-data-source-bank.html) to database table.
+      This week has only 1 source file.
+      Link to file: [here](https://drive.google.com/file/d/1oln2ri6nu1wDQfT3gQMLLNlmQ2h6B9d9/view)
