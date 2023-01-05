@@ -1,0 +1,43 @@
+version: 2
+
+models:
+  - name: int_week_202301
+    description: >
+      Intermediate model SQL logic for [Preppin' Data 2023 Week 1](https://preppindata.blogspot.com/2023/01/2023-week-1-data-source-bank.html).
+      Intermediate models contain logic used by more than one downstream solution model.
+    columns:
+      - name: transaction_code
+        type: VARCHAR
+        tests:
+          - not_null
+          - unique
+      - name: bank
+        type: VARCHAR
+        tests:
+          - not_null
+          - accepted_values:
+              values: [DTB, DS, DSB]
+      - name: online_or_in_person
+        type: VARCHAR
+        tests:
+          - not_null
+          - accepted_values:
+              values: [In-Person, Online]
+      - name: transaction_date
+        type: VARCHAR
+        tests:
+          - not_null
+          - accepted_values:
+              values: [Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday]
+      - name: value
+        type: BIGINT
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: '> 0'
+      - name: customer_code
+        type: BIGINT
+        tests:
+          - not_null
+          - dbt_utils.expression_is_true:
+              expression: 'between 100000 and 100010'

@@ -31,6 +31,8 @@ models:
   preppin_data:
     ingestion:
       +materialized: table
+    intermediate:
+      +materialized: ephemeral
     solutions:
       +materialized: view
       +post-hook:
